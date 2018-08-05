@@ -93,7 +93,7 @@ namespace CaesarCipher
                 // Eğer girilen değer byte değilse ekrana uyarı mesajı yazdırıyorum
                 catch
                 {
-                    MessageBox.Show("Lütfen şifrelenecek sayıya 0 ile 255 arasında bir değer giriniz.");
+                    MessageBox.Show("Lütfen anahtar sayıya 0 ile 255 arasında bir değer giriniz.");
                 }
             }
 
