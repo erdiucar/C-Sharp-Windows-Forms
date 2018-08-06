@@ -8,10 +8,12 @@ namespace CaesarCipher
 {
     public class Caesar
     {
-        // Kullanıcı tarafından yazılan anahtar sayı, şifre-deşifre edilecek yazı ve şifre-deşifre edilen yazı için değişken oluşturuyorum
+        // Kullanıcının yazdığı anahtar sayı
         private byte anahtar_sayi;
+        // Kullanıcının yazdığı yazı
         private string kullanici_yazi;
-        private string sifre_yazi;
+        // Şifrelenen ya da deşifre edilen yazı
+        private string sifre_yazi; 
 
         // Kurucu metod yazdım. Sınıfın nesnesini oluştururken kullanıcıdan anahtar sayı ve şifre-deşifre edilecek yazıyı alıyorum 
         public Caesar(byte anahtar_sayi, string sifre_yazi)
