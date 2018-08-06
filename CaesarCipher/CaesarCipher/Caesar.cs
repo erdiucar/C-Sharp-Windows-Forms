@@ -13,14 +13,14 @@ namespace CaesarCipher
         private string kullanici_yazi;
         private string sifre_yazi;
 
-        // Kurucu metod yazdım. Class oluştururken kullanıcıdan anahtar sayi ve şifre-deşifre edilecek yazıyı alıyorum 
+        // Kurucu metod yazdım. Sınıfın nesnesini oluştururken kullanıcıdan anahtar sayı ve şifre-deşifre edilecek yazıyı alıyorum 
         public Caesar(byte anahtar_sayi, string sifre_yazi)
         {
             this.anahtar_sayi = anahtar_sayi;
             this.kullanici_yazi = sifre_yazi;
         }
 
-        // ASCII tablosu kullanarak şifreleme yaptığım için Türkçe karakterleri kontrol etmek adına bool fonksiyon yazıyorum
+        // ASCII tablosu kullanarak şifreleme yaptığım için, Türkçe karakterleri kontrol etmek adına bool fonksiyon yazıyorum
         private bool TurkceMi(char karakter)
         {
             if (karakter == 'ç' || karakter == 'Ç' || karakter == 'ğ' || karakter == 'Ğ' || karakter == 'ı' || karakter == 'İ' || karakter == 'ö' || karakter == 'Ö' || karakter == 'ş' || karakter == 'Ş' || karakter == 'ü' || karakter == 'Ü')
@@ -36,6 +36,7 @@ namespace CaesarCipher
         // "Sifrele" metodunu kullanarak yazının şifrelenmiş halini gönderiyorum
         public string Sifrele()
         {
+            // Metod her çalıştırıldığında sifre_yazi değişkenini boş hale getiriyorum
             sifre_yazi = "";
 
             for (int i = 0, s = kullanici_yazi.Length; i < s; i++)
@@ -73,6 +74,7 @@ namespace CaesarCipher
         // "DesifreEt" metodu kullanarak yazının deşifre edilmiş halini gönderiyorum
         public string DesifreEt()
         {
+            // Metod her çalıştırıldığında sifre_yazi değişkenini boş hale getiriyorum
             sifre_yazi = "";
 
             for (int i = 0, s = kullanici_yazi.Length; i < s; i++)

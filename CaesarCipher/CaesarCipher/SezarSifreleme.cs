@@ -29,7 +29,7 @@ namespace CaesarCipher
             // Eğer textbox'lar boş değilse program başlıyor
             if (txtAnahtarSayi.Text != "" && txtYaziSifre.Text != "")
             {
-                // Anahtar sayı olarak byte girilmezse, program hata vereceği için programın geri kalanını try içine yazdım
+                // Anahtar sayı olarak byte girilmediğinde program hata vereceği için, programın geri kalanını try içine yazdım
                 try
                 {
                     // Yazdığım sınıftan bir nesne oluşturuyorum. Eğer anahtar sayı byte'a çevrilirken hata verirse program catch'e atlıyor
