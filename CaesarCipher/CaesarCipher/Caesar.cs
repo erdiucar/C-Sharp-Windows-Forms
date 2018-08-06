@@ -106,7 +106,7 @@ namespace CaesarCipher
                         sifre_yazi += (char)(formul + 97);
                     }
                 }
-                // Eğer karakterler harf değilse ve Türkçe ise, olduğu gibi sifrelenen_yazi değişkenine aktarılıyor
+                // Eğer karakterler harf değilse ve Türkçe ise, olduğu gibi sifre_yazi değişkenine aktarılıyor
                 else
                 {
                     sifre_yazi += kullanici_yazi[i];
