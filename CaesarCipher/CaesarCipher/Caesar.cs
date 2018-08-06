@@ -33,7 +33,7 @@ namespace CaesarCipher
             }
         }
 
-        // Sifrele metodu kullanarak yazının şifrelenmiş halini gönderiyorum
+        // "Sifrele" metodunu kullanarak yazının şifrelenmiş halini gönderiyorum
         public string Sifrele()
         {
             sifre_yazi = "";
@@ -59,17 +59,18 @@ namespace CaesarCipher
                         sifre_yazi += (char)(formul + 97);
                     }
                 }
-                // Eğer karakterler harf değilse ve Türkçe ise, olduğu gibi sifrelenen_yazi değişkenine aktarılıyor
+                // Eğer karakterler harf değilse ve Türkçe ise, olduğu gibi sifre_yazi değişkenine aktarılıyor
                 else
                 {
                     sifre_yazi += kullanici_yazi[i];
                 }
             }
 
+            // Şifrelenmiş yazıyı gönderiyorum
             return sifre_yazi;
         }
 
-        // DesifreEt metodu kullanarak yazının deşifre edilmiş halini gönderiyorum
+        // "DesifreEt" metodu kullanarak yazının deşifre edilmiş halini gönderiyorum
         public string DesifreEt()
         {
             sifre_yazi = "";
@@ -112,10 +113,8 @@ namespace CaesarCipher
                 }
             }
 
+            // Deşifre edilmiş yazıyı gönderiyorum
             return sifre_yazi;
         }
-
-
     }
-
 }
