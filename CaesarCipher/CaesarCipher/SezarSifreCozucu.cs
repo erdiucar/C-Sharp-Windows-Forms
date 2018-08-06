@@ -31,10 +31,10 @@ namespace CaesarCipher
                 try
                 {
                     // Yazdığım sınıftan bir nesne oluşturuyorum. Eğer anahtar sayı byte'a çevrilirken hata verirse program catch'e atlıyor
-                    Caesar desifre_caesar = new Caesar(byte.Parse(txtAnahtarSayi.Text), txtYaziSifre.Text);
+                    CaesarCipher sezar = new CaesarCipher(byte.Parse(txtAnahtarSayi.Text), txtYaziSifre.Text);
 
                     // Nesnenin "DesifreEt" metodunu kullanarak yazıyı deşifre ediyorum ve textbox'a yazdırıyorum.
-                    txtSifrelenenYazi.Text = desifre_caesar.DesifreEt();
+                    txtSifrelenenYazi.Text = sezar.DesifreEt();
                 }
 
                 // Eğer girilen değer byte değilse ekrana uyarı mesajı yazdırıyorum

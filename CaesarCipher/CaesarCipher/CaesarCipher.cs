@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CaesarCipher
 {
-    public class Caesar
+    public class CaesarCipher
     {
         // Kullanıcının yazdığı anahtar sayı
         private byte anahtar_sayi;
@@ -16,7 +16,7 @@ namespace CaesarCipher
         private string sifre_yazi; 
 
         // Kurucu metod yazdım. Sınıfın nesnesini oluştururken kullanıcıdan anahtar sayı ve şifre-deşifre edilecek yazıyı alıyorum 
-        public Caesar(byte anahtar_sayi, string sifre_yazi)
+        public CaesarCipher(byte anahtar_sayi, string sifre_yazi)
         {
             this.anahtar_sayi = anahtar_sayi;
             this.kullanici_yazi = sifre_yazi;
