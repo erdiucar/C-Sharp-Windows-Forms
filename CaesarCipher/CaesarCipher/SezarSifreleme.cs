@@ -32,8 +32,10 @@ namespace CaesarCipher
                 // Anahtar sayı olarak byte girilmezse, program hata vereceği için programın geri kalanını try içine yazdım
                 try
                 {
-                    // Eğer anahtar sayı byte'a çevrilirken hata verirse program catch'e atlıyor
+                    // Yazdığım sınıftan bir nesne oluşturuyorum. Eğer anahtar sayı byte'a çevrilirken hata verirse program catch'e atlıyor
                     Caesar sifre_caesar = new Caesar(byte.Parse(txtAnahtarSayi.Text), txtYaziSifre.Text);
+
+                    // Nesnenin "Sifrele" metodunu kullanarak yazıyı şifreliyorum ve textbox'a yazdırıyorum.
                     txtSifrelenenYazi.Text = sifre_caesar.Sifrele();
                 }
 
