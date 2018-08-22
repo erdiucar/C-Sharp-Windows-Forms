@@ -32,7 +32,7 @@
             this.şifreleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.programdanÇıkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txtSifrelenenYazi = new System.Windows.Forms.RichTextBox();
+            this.txtDesifreEdilenYazi = new System.Windows.Forms.RichTextBox();
             this.buton2 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -80,7 +80,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.txtSifrelenenYazi);
+            this.groupBox2.Controls.Add(this.txtDesifreEdilenYazi);
             this.groupBox2.Controls.Add(this.buton2);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -92,15 +92,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Deşifre Edilen";
             // 
-            // txtSifrelenenYazi
+            // txtDesifreEdilenYazi
             // 
-            this.txtSifrelenenYazi.BackColor = System.Drawing.Color.GhostWhite;
-            this.txtSifrelenenYazi.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.txtSifrelenenYazi.Location = new System.Drawing.Point(221, 36);
-            this.txtSifrelenenYazi.Name = "txtSifrelenenYazi";
-            this.txtSifrelenenYazi.Size = new System.Drawing.Size(370, 123);
-            this.txtSifrelenenYazi.TabIndex = 4;
-            this.txtSifrelenenYazi.Text = "";
+            this.txtDesifreEdilenYazi.BackColor = System.Drawing.Color.GhostWhite;
+            this.txtDesifreEdilenYazi.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.txtDesifreEdilenYazi.Location = new System.Drawing.Point(221, 36);
+            this.txtDesifreEdilenYazi.Name = "txtDesifreEdilenYazi";
+            this.txtDesifreEdilenYazi.Size = new System.Drawing.Size(370, 123);
+            this.txtDesifreEdilenYazi.TabIndex = 4;
+            this.txtDesifreEdilenYazi.Text = "";
             // 
             // buton2
             // 
@@ -226,7 +226,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem şifreleToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RichTextBox txtSifrelenenYazi;
+        private System.Windows.Forms.RichTextBox txtDesifreEdilenYazi;
         private System.Windows.Forms.Button buton2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox1;

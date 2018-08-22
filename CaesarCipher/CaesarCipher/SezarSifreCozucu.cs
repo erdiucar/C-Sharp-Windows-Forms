@@ -34,7 +34,7 @@ namespace CaesarCipher
                     CaesarCipher sezar = new CaesarCipher(byte.Parse(txtAnahtarSayi.Text), txtYaziSifre.Text);
 
                     // Nesnenin "DesifreEt" metodunu kullanarak yazıyı deşifre ediyorum ve textbox'a yazdırıyorum.
-                    txtSifrelenenYazi.Text = sezar.DesifreEt();
+                    txtDesifreEdilenYazi.Text = sezar.DesifreEt();
                 }
 
                 // Eğer girilen değer byte değilse ekrana uyarı mesajı yazdırıyorum
@@ -56,7 +56,7 @@ namespace CaesarCipher
         {
             txtAnahtarSayi.Clear();
             txtYaziSifre.Clear();
-            txtSifrelenenYazi.Clear();
+            txtDesifreEdilenYazi.Clear();
         }
 
         // Menüde "Şifrele"ye tıklanırsa, bu formu gizleyip 1. formu (Şifrele) gösteriyorum
