@@ -20,7 +20,7 @@ namespace VigenereCipher
         // Şifrelenen ya da deşifre edilen yazı
         private string sifre_yazi;
 
-        // Kurucu metod yazdım. Sınıfın nesnesini oluştururken kullanıcıdan anahtar sayı ve şifre-deşifre edilecek yazıyı alıyorum 
+        // Kurucu metod yazdım. Sınıfın nesnesini oluştururken kullanıcıdan anahtar kelime ve şifre-deşifre edilecek yazıyı alıyorum 
         public VigenereCipher(string anahtar_kelime, string sifre_yazi)
         {
             this.anahtar_kelime = anahtar_kelime;
