@@ -9,11 +9,11 @@ namespace VigenereCipher
 {
     class VigenereCipher
     {
-        // Kullanıcının yazdığı anahtar metin
+        // Kullanıcının yazdığı anahtar kelime
         private string anahtar_kelime;
-        // Kullanıcının yazdığı anahtar metnin karakter sayısı
+        // Kullanıcının yazdığı anahtar kelimenin karakter sayısı
         private int anahtar_kelime_length;
-        // Kullanıcının yazdığı anahtar metin için sayaç
+        // Kullanıcının yazdığı anahtar kelime için sayaç
         private int anahtar_kelime_sayac;
         // Kullanıcının yazdığı yazı
         private string kullanici_yazi;
