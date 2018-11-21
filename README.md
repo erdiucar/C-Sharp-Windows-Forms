@@ -1,6 +1,6 @@
 # C-Sharp-Windows-Forms
 
-C# Windows Forms Projects
+C# Windows Forms Projeleri
 
 www.erdiucar.com
 
